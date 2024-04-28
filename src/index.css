@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.button {
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  transition: all 0.5s linear;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.button:hover {
+  background: rgb(251, 113, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 113, 133, 1) 32%,
+    rgba(249, 115, 22, 1) 100%
+  );
+  transition: all 0.5s linear;
+}
